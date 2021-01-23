@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+<title>BBC Clone</title>  
+<link rel="stylesheet" type="text/css" href="BBC_Clone.css" />
+
+</head>
+<body>
+<div class="container">
+  <div class="top-bar">
+    <div class="fixed-width">
+               
+         <div id="logo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaUAAAB4CAMAAABl2x3ZAAAAe1BMVEUAAAD////g4ODFxcWjo6PLy8s5OTkmJiZGRkZQUFBsbGx5eXn8/Pza2tr5+fn29vaEhITV1dXt7e0hISHn5+dAQEBVVVW2trZqamq8vLyAgICwsLAvLy9jY2N1dXU2NjampqaTk5MYGBgODg6YmJheXl4WFhZSUlKMjIyjgdZDAAAJiUlEQVR4nO2d6XrqOgxFwxDKkDIXTpgKpb2H93/CC21pQTJ4S7Ed/J3s38ERXo4HWbKTpFw1akz1kk2qc5MaJZtUtipKMaiiFIMqSjGoohSDKkoxqKIUgypKMaiiFIMqSjGoohSDKkoxqKIUgypKMaiiFIP+FUqT11b7pfU6cWCfUW9Pd1WwdBWlyV2LitaEU0qzxbLxPOhn55Ky/mCazoezfUEjqZrc6Etlg9F82FGXrqKUWkwap8vei9okV5T+6+Xj20ZO895KbSKXhdJ3xaRDXRP2QelL/UZPZZEjSsOR3cTx/I/ORC6I0kmjrqJ0f5Q+a3emMMkBpS6A6Fvp8E1hIxNM6dg2FuLS/VI6FrYWm1SY0vsAt++k54PYRiYBpWNvKx2hfFM6fuLS7r8Ypf1SYtxZadGuT0SpVtvKSvdPqVYTNtVClIS19at+s9DcVPreZ1HpISgJO6wClDZ9oWVXEllJJG4dY8laIAglWctRU3rD5wxGSYykkn/DY0HpYSjVRgKTtJQ2YquIBDYyKXpaQdMNRKk2x01SUprLjSLCTeTSjIdNuPRQlGr4EldHyfArqWALDVLNWtpo6cEoZfBoqaG0Ei6RjEINNElFCe7zglHC+zwFpVbGf/Or7DlvLrrr9Z/uopmnt317qIEmEUrTdfdCw+XIbOAHWLoLSqNLkzaH+bO5ElD3vZzSHUjj+eaVPt5Z5FPTs6B9RhFKvA7XpqadgqW7oMTrsGcCtQVNElOa3FoljZs3PfOTTc46SdA+o6yUkqRt+GNgy/VD6dh0eMeCLhDElG70YanN1dvZXv8StM8ogFKS5MzGIVa6L0pJwj+nv5hJUkrmtWzOOjqTOvOL7xAzzyyIEh/QQaeKP0q8tsH1gZCScXb1DE9yk97P++Cf2K24VYe0lwX7F4+UVrRg0AEho/TXBEnm3+00glEaUksxF69HSgndQwAbjoySYaE0bmEv+tUqD0QpobZigQc+Kb2SgvvYwlZEybCbhE5vr/Q0D0OJjkzYZrZPSmzyhe0HSijRhnBUDr2EqyXb8iFCKdFRFFvXeqVEGw407RJR4vO7kgIsUUoHYu4DfEu0cOff0ow9WeiDKCCU0juxF5uLhqSUYRMaASX2KQ1cR0OiQinR/RWs4XqlRCpxAFkkoNRmD6LuS+dCKZG1PlglXimRgqeYSTgl5nFZYm/wIOVMHIzJ90mJjhrg3gVMaU8fA1umD4GU6LAEumN8UqJNfYOZBFOi8yXUd+lDICW6xQI6sjxSapFy0d1amBJ9sMRPSeltRZOQPFKia1p0uYlSYn7CHfgCH9LtXKARtf4osVkytqbFKSk9l36EUGI1EjTuwVSHK7Zn7TzugXYfKv+dK9kp7fjfQtutL0pbVio+aKCU6D66Ml3KjSyUOkvDrj8+2fFBac13jlGH1UkgJbakLbPDYzFE3d5Zi91yZAzMECzunMQQbX5MGu6W5ggiwSQZpNQjz4BrZk+Sx+MJon1DxeNJpl8gJbqzJPnX7iWmhIcfJ6EoiYYMkBI1otRhSUqpL8tqC0FpjIeKnARSossxTQqvO4koZdLv3j+l/rvQJJASHZFLnTzIKI26QmP9U2qshXs+GKU34hLLZC9xLem4NAKdml8K0eNlDVGiOkaJRjyU6cRLNHO8gWBGFWiONxWccYBRehFb7VWazJgBPOEJlhkzhbdRMUrU4y7JCfUgXW58Cp4IEi5/CV7QYJQmZFyK8Fs6ahAuhgjV1GkMEZnjRTcufQuaRYSkVOtDCyeQEgk9jmyO9yvk9KiglLAdZJASfQzeBvAiPSWkTgJT6gPLOZAStdzZIWoqUZ/4S+das4/NoWnO6QX6aheU0jY3abcdGdPGge1JkBLdwhK5L50LjE5pNQ21Yg818BlD1FkaspLt/iLlzkW5U3E0Hi9JhrxSrBM9r1GTxu7amvCr3AUsd/qAUzLkslpr3DOlZMW6Yuv3rd1RL3VgklDi47ot49g3pSRhYSr/WUpHKdGQHG3ikhOJKLE6saXz+Ke0p/2wbZhHKe3oU1a7PUpGiTohbab7p5R0Sfm2AAWUEgtPcXD8qloySqzaLUvbAJTY921xFMERyHTIk5wL6FpCSjTRwRJPFIISjbq3tHmYEgv6e/xo/h+RqY9lGRmC0hN5gcU5DlOimxcRZMb8qC6yPAQl6hi1NBw8y4wtPB4/y+wsOkG9/3QQSmRgskwfcEr8pNaHz9g8i/7J+08HoUSGecsoL8h+Zkvmh89+PovOqO4/HYQSeYE7Siw55uFPEvgWSza9/3gISnQN56zHMx2Npz+VY1jEXyuk9IdY3b//eAhKNOXX2ezBeIa4ElOnXug7FFISpm6GoEQbvCUdTHRalOEIQ80n8XRK5glHiblNLFUSgBLdCLI58kSUWHLtUWPpPWpvX/kb4SgxD7Rl180/JRoqbHVayc7H2xkwyfKgV+ccm2CUeAdg2brwT4kP8JbZsvBEUOOxrXU4A6Pzm7gYiNKE/0HL5ME7pTaHZKsM6em65nOqU+i+sMXly8JQ2hmMtQWU+qW051nQ9g0GKSV+ZtR3pdvCsNf5dWccgFJna2xTtmAvn5Q+zNe42EoXnydON7B+lDW6t3rXp16D1ZdLSq9tos7Hptm4cRuHdVbqJNKLmfR33dumN07Mt3pE5TcosAOJLv/NskdbansxN96g4JCSTNa4ycBRk8hpRIrbSHaWlw5GjXx7GA5323u3kZRFye7JD07JvlOnudnn3tcEqyRKwBEIoSkBx9CobskqfN1crSxKGXAjSWBKyNEZurvMOoWu1/xUOZSQBIewlMa2WLyTlPcC7m9c+4SrDEoZ5M0KSmkK7dGpb0KlvnepiqQTKinVkWYblhJ4NJr+VuEX4wQbVVYkBElHCc0TCUgJrYQiN3Tr53riw0OupaE0Cno+HqQc+7aTorfdqy67r02LhvLJKY0ER/IEotQQbPkUo5TsTYlc95UXP8NISGmwFO2BBTktqoler/mpgpSOWhv+1U2lTg4Dk1CaLqUBad4pPTehLYQLFad01IY7Uw0a5EiGOCKT858p69fzd+mxTCf5o5QNRvlB05U4oXRU5/2Ww/dT43wo3Xm/o6eWVa+iHuVKKkorwCT9QWiuKJ300m026v3rbaT+OJ0fPsCzZR5DKkp+5ZLSl/at2Ud30+ttuutZu9xz9HT6JyhFr4pSDKooxaCKUgyqKMWgilIMqijFoIpSDKooxaCKUgyqKMWgilIMqijFoIpSDKooIfof6Ut9IlVGY2EAAAAASUVORK5CYII="height="20" width="70" alt="">
+           </div>
+      <div id="sign-in" align=center>
+        <img src="data:image/jpeg;base64,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" width="40" height="25" alt="">
+     <!---   <a id="idcta-link" href="https://session.bbc.com/session?ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews&amp;context=news&amp;userOrigin=news_gnl">---><span id="sign-in-username" text-align="center" >Sign in</span></a>
+      </div>
+   </div><!---fixed-width--->
+    <ul>
+      <li>Home</li>
+      <li>News</li>
+      <li>Sports</li>
+      <li>Reel</li>
+      <li>Worklife</li>
+      <li>Travel</li>
+      <li>Future</li>
+      <li>Culture</li>
+      <li>More</li>
+     </ul>
+  <div id="search-box">
+    <input type="text" placeholder="Search">
+  </div><!---search-box--->
+   
+  </div><!--top-bar-->
+    <div class="news-bar">
+      <div class="fixed-width">
+        <P>NEWS</P>
+      </div><!---fixed-width--->
+      
+    </div><!--news-bar-->
+    <div class="category-bar">
+      <div class="fixed-width">
+       <ul>
+         <li>Home</li>
+         <li>Coronavirus</li>
+         <li>Video</li>
+         <li>World</li>
+         <li>Asia</li>
+         <li>UK</li>
+         <li>Business</li>
+         <li>Tech</li>
+          <li>Science</li>
+         <li>Stories</li>
+         <li>Entertainment & Arts</li>
+         <li>Health</li>
+          <li>World News TV</li>
+         <li>In Pictures</li>
+         <li>More</li>
+       </ul>
+      </div><!---fixed-width--->
+
+    </div><!--category-bar-->
+   <!--- <div class="location-bar">
+      <div class="fixed-width">
+        
+      <ul>
+        <li id="bold">UK</li>
+         <li>England</li>
+         <li>N.Ireland</li>
+         <li>Scotland</li>
+         <li>Wales</li>
+         <li>Politics</li>
+      </ul>
+        </div><!---fixedwidth--->
+    </div><!--location-bar-->
+<div class="img_ad">
+  <div class="fixed-width">
+        <p>ADVERTISEMENT</p>
+        <img src="https://tpc.googlesyndication.com/simgad/5996890033631579867" border="0" width="728" height="90" alt="" >
+    </div>
+          </div><!---img_ad--->
+<div class="content">
+      <div class="fixed-width">
+          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/B15F/production/_116570454_flags.jpg" width="400" height="300">
+         <img id="h3-img" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/ECF1/production/_116575606_mediaitem116567736.jpg" width="250">
+        <h1>Trump's Covid order rebuffed as he begins last day</h1>
+        <a href="https://www.bbc.com/news/world-asia-55708417"><h3>Snostorm causes 130-car pile-up in Japan</h3></a> 
+         <p id="h3-p">One people is killed and atleast 10 are injured after cars collide on the Tohoko Expessway</p>
+        <p>Joe Biden will revers Donald Trump,s latest decree on covid travel, as wednesdays inaugration looms.</p>
+    
+    <div class="content-links"> 
+      <ul>
+        <li><a  href="https://www.bbc.com/news/live/world-us-canada-55720066">Pardon expected on Trump's final full day</a></li>
+     <li> <a href="https://www.bbc.com/news/election-us-2020-55683895">How the White House changes Hands</a></li>
+        <li><a href="https://www.bbc.com/news/world-us-canada-55694415">Biden plans decree blitz to Dump Trump Policies</a></li>
+        </ul>
+      </div><!---contents-link--->
+        
+         </div><!---fixed-width--->
+    </div><!--content-->
+  </div><!--container-->
+</body>  

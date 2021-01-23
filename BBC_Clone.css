@@ -1,0 +1,170 @@
+body{
+  margin:0%;
+   fomt-family:Arial, Helvitica,freesans;
+}
+/*centres in the middle*/
+.fixed-width{
+  margin:0 auto;
+  width:1000px;
+}
+.top-bar{
+  background-color:white;
+  width:100%;
+  height:30px;
+  color:black;
+ margin:0;
+}
+.top-bar ul{
+  margin:0;
+}
+.top-bar ul li{
+  list-style:none;
+  float:left;
+  font-weight:bold;
+  font-size:1em;
+   padding-bottom:10px;
+  padding-right:10px;
+  padding-left:10px;
+  border-right:1px solid #848484;
+}
+
+.news-bar{
+  background-color:#BB1919;
+  width:100%;
+  height:60px;
+  color:white;
+ 
+}
+.news-bar p{
+  margin:0;
+  padding-left:18px;
+  font-size:3em;
+  font-family:arial;
+}
+
+.category-bar{
+  background-color:#A91717;
+  width:100%;
+  height:30px;
+  color:white;
+ 
+}
+.category-bar ul{
+  margin:0;
+  padding-left:14px;
+  list-style:none;
+}
+.category-bar ul li{
+  float:left;
+  font-family:Arial;
+  font-size:0.9em;
+  border:6px solid #A91717;
+}
+
+.location-bar{
+  background-color:white;
+  width:100%;
+  color:#000000;
+ height:40px;
+}
+
+.location-bar ul{
+  list-style:none;
+  margin:0;
+}
+
+.location-bar ul li{
+  float:left;
+  font-family:Arial;
+  font-size:0.9em;
+  padding:1.5px 7px 0px 7px;
+  position:relative;
+  right:25px;
+  border-right:1px solid #B4B4B4;
+  
+}
+.img_ad{
+  padding-left:150px;
+  color:black;
+  font-size:1em;
+}
+.content h1{
+  color:#1167A8;
+  width:230px;
+  height:100px;
+}
+.content img{
+  float:right;
+  position:relative;
+  right:350px;
+}
+.content p{
+  width:200px;
+  margin:0;
+}
+.content-links{
+ padding-top:10px;
+  
+}
+
+.content ul li{
+  float:left;
+  width:200px;
+  padding-right:30px;
+  font-size:1em;
+}
+.content h3{
+  position:relative;
+  left:680px;
+  width:220px;
+  margin:0;
+ 
+}
+#logo{
+  float:left;
+  padding-top:6px;
+  padding-left:20px;
+  padding-right:10px;
+  padding-bottom:0px;
+  border-right:1px solid #848484;
+}
+#sign-in{
+  font-weight:bold;
+  font-size:1em;
+  float:left;
+  padding-bottom:0px;
+  padding-right:10px;
+  border-right:1px solid #848484;
+padding-left:10px;
+}
+#sign-in-username{
+  
+  text-align:center;
+  padding-right:50px;
+}
+#search-box{
+  float:left;
+  padding-top:5px;
+  padding-left:6px;
+  width:200px
+}
+#search-box input{
+  background-image:url("https://static.thenounproject.com/png/101791-200.png " height="20px");
+  background-repeat:no-repeat;
+    background-position:right down;
+}
+#bold{
+  font-weight:bold;
+  font-size:1.2em;
+  padding-up:5px;
+}
+#h3-img{
+position:relative;
+  left:300px;
+  width:220px;  
+}
+#h3-p{
+position:relative;
+  left:680px;
+  width:220px;
+}
